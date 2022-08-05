@@ -202,16 +202,18 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   position: relative;
 }
 .footer {
+  font-size: 14px;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #dfe1e5;
-  border-top: 1px solid #dadce0;
   position: fixed;
   bottom: 0;
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  background: #f2f2f2;
+  min-width: 980px;
+  border-top: 1px solid #e4e4e4;
 }
 
 .footerli {
@@ -220,7 +222,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .footerli a {
-  display: inline-block;
+  display:block;
   color: #5f6368;
   text-align: center;
   padding: 14px 16px;
@@ -229,7 +231,6 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   font-size: 14px;
   margin-left: 14px;
   margin-right: -20px;
-  white-space: nowrap;
 }
 
 .footerli a:hover {
